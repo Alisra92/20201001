@@ -9,22 +9,40 @@
 
 <body>
 <div id="root" class="container">
-<competence titre="SLAM3" contenu="Data - Bases de données - Modélisation UML"> </competence>
 
-    <modal v-if="montreDetail" @close="montreDetail = false">
-        La Data est un élément fondamental pour le Développement . Un logiciel doit tenir la charge, la volumétrie
-        et être capable d'assurer la persistence des données
-        <br>
-        La data est un élément fondamental aujourd'hui car tout le monde tient à ses données et à sa vie privée. data -> connaissance -> pouvoir
-    </modal>
-    <button @click="montreDetail=true"> Voir détails </button>
+<competence titre="SLAM3" contenu="Data - Bases de données - Modélisation UML">
 
-<competence titre="SLAM4" contenu="Composants logiciels - Développement OO - Librairies"> </competence>
-<competence titre="SLAM5" contenu="Solutions applicatives"> </competence>
-<competence titre="PPE" contenu="PPE - Laravel - Vue - Android - Agile"> </competence>
+     <template slot="detail">
+         Data, Big Data, modélisation, persistence, ORM, dérivation
+     </template>
+
+</competence>
+
+<competence titre="SLAM4" contenu="Composants logiciels - Développement OO - Librairies">
+
+    <template slot="detail">
+        PHP
+    </template>
+
+</competence>
+
+<competence titre="SLAM5" contenu="Solutions applicatives">
+
+    <template slot="detail">
+        JavaScript
+    </template>
+
+</competence>
+
+<competence titre="PPE" contenu="PPE - Laravel - Vue - Android - Agile">
+
+    <template slot="detail">
+        Commandes DOS, Communication-
+    </template>
+
+</competence>
 
 </div>
-
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 <script src="050_MultCompVue.js"></script>

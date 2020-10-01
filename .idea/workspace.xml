@@ -10,7 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4972b821-9783-4e9a-953b-4bfda8bebbad" name="Default Changelist" comment="anto" />
+    <list default="true" id="4972b821-9783-4e9a-953b-4bfda8bebbad" name="Default Changelist" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/050_MultCompVue.html" beforeDir="false" afterPath="$PROJECT_DIR$/050_MultCompVue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/050_MultCompVue.js" beforeDir="false" afterPath="$PROJECT_DIR$/050_MultCompVue.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +64,7 @@
       <workItem from="1601552717172" duration="145000" />
       <workItem from="1601552965676" duration="484000" />
       <workItem from="1601553480240" duration="122000" />
-      <workItem from="1601553606867" duration="6072000" />
+      <workItem from="1601553606867" duration="9387000" />
     </task>
     <task id="LOCAL-00001" summary="anto">
       <created>1601559293588</created>
@@ -69,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601559293588</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1601560220555</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601560220555</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +99,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="anto" />
-    <option name="LAST_COMMIT_MESSAGE" value="anto" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="90" y="256" key="Vcs.Push.Dialog.v2" timestamp="1601560259816">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="90" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601560259816" />
+    <state x="154" y="244" key="run.anything.popup" timestamp="1601562646635">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="154" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601562646635" />
   </component>
 </project>

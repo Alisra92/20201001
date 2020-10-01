@@ -13,60 +13,17 @@ Vue.component('competence', {
         </div>
         <div class="message-body">
         {{ contenu }}
+        <button @click = "montreDetail=true" > Voir détails </button>
+        <div>
+    <modal v-if=montreDetail" @close="montreDetail = false">
+    <slot name="detail"> </slot>
+    </modal>    
+        </div>
         </div>
         </article>
     `
 })
 
-// 1ère compétence
-Vue.component('modal', {
-    template: `
-    <div class modal="is-active">
-    <div class="modal-background"></div>
-    <div class="modal-content">
-    <div class="box">
-    <P>
-    <slot> </slot>
-    </P>
-    <!-- Any other Bulma elements you want -->
-    <button class="modal-close" @click="$emit('close')"></button>
-    </div> </div> </div>
-    `
-})
-
-// 2ème compétence
-Vue.component('modal', {
-    template: `
-    <div class modal="is-active">
-    <div class="modal-background"></div>
-    <div class="modal-content">
-    <div class="box">
-    <P>
-    <slot> </slot>
-    </P>
-    <!-- Any other Bulma elements you want -->
-    <button class="modal-close" @click="$emit('close')"></button>
-    </div> </div> </div>
-    `
-})
-
-// 3ème compétence
-Vue.component('modal', {
-    template: `
-    <div class modal="is-active">
-    <div class="modal-background"></div>
-    <div class="modal-content">
-    <div class="box">
-    <P>
-    <slot> </slot>
-    </P>
-    <!-- Any other Bulma elements you want -->
-    <button class="modal-close" @click="$emit('close')"></button>
-    </div> </div> </div>
-    `
-})
-
-// 4ème compétence
 Vue.component('modal', {
     template: `
     <div class modal="is-active">
@@ -84,9 +41,4 @@ Vue.component('modal', {
 
 var app = new Vue({
     el: '#root',
-    data() {
-        return {
-            montreDetail: false
-        }
-    }
 })
